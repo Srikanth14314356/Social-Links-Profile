@@ -1,0 +1,79 @@
+/* Use Inter font */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Card styling */
+.card {
+  background-color: hsl(0, 0%, 12%);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  width: 90%;
+  max-width: 375px;
+}
+
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.bio {
+  font-size: 14px;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 1.5rem;
+}
+
+/* Social links */
+.links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.links li {
+  margin-bottom: 0.75rem;
+}
+
+.links a {
+  display: block;
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  padding: 0.75rem;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.links a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
+
+/* Responsive behavior (optional, since 375px is already small) */
+@media (min-width: 768px) {
+  .card {
+    max-width: 400px;
+  }
+}
